@@ -1,0 +1,31 @@
+/* селектор по имени тега */
+a {
+    color : red;
+    font-size : 26px;
+}
+
+div {
+    color : #E09713;
+    font-size : 32px;
+}
+
+/* селектор по идентификатору */
+идентификатор, в html задается через id
+#my_ref {
+    color : green;
+}
+
+/* селектор по классу */
+.human {
+    font-size : 45px;
+    background-color : green;
+    border : 1px solid red;
+}
+
+/* 
+Как задать цвет?
+color : red;
+color : #E09713;
+color : rgb(255, 0, 0);
+color : rgba(255, 0, 0, 0.6);
+*/
